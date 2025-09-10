@@ -1,0 +1,137 @@
+/* Style umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+}
+
+/* Tabel utama */
+.main-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+   
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Gambar profil di header */
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Menu samping */
+.menu {
+    width: 200px;
+    background: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.menu a {
+    display: block;
+    margin: 8px 0;
+    padding: 10px;
+    background: #ddd;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu b {
+    display: block;
+    margin: 8px 0;
+    padding: 10px;
+    background: #ddd;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu c {
+    display: block;
+    margin: 8px 0;
+    padding: 10px;
+    background: #ddd;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.menu a:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+/* Konten utama */
+.content {
+    padding: 20px;
+    vertical-align: top;
+}
+
+/* Foto di profile */
+.profile-photo {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Form hitung kubus */
+form {
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin: 5px 0;
+    width: 150px;
+}
+
+button {
+    padding: 7px 15px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Hasil hitung kubus */
+.result {
+    margin-top: 15px;
+    padding: 10px;
+    background: #eafbea;
+    border-left: 5px solid #4CAF50;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
